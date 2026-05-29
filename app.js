@@ -25,7 +25,7 @@ const PRODUCTS = [
     desc:
       "Pillow-soft feel with a stable arch profile. Easy slip-on fit for daily wear—indoors or out.",
     image:
-      "https://images.unsplash.com/photo-1562183241-b937e95585b6?auto=format&fit=crop&w=1200&q=70",
+      "https://images.unsplash.com/photo-1607522370275-f14206abe5d3?auto=format&fit=crop&w=1400&q=75",
   },
   {
     id: "dyno-drift-runner",
@@ -39,7 +39,7 @@ const PRODUCTS = [
     desc:
       "Breathable mesh upper with a clean silhouette. Built for commutes, errands, and casual flex.",
     image:
-      "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=70",
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1400&q=75",
   },
   {
     id: "dyno-easywear-set",
@@ -53,7 +53,7 @@ const PRODUCTS = [
     desc:
       "A clean everyday set designed for comfort. Soft feel, good drape, and easy styling.",
     image:
-      "https://images.unsplash.com/photo-1520975661595-6453be3f7070?auto=format&fit=crop&w=1200&q=70",
+      "https://images.unsplash.com/photo-1520975958221-69e62e2f3d9c?auto=format&fit=crop&w=1400&q=75",
   },
   {
     id: "dyno-street-low",
@@ -67,7 +67,7 @@ const PRODUCTS = [
     desc:
       "Minimal upper, stable outsole, and a comfy insole. Made to stay clean with most fits.",
     image:
-      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=1200&q=70",
+      "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=1400&q=75",
   },
   {
     id: "dyno-coast-slides",
@@ -81,7 +81,7 @@ const PRODUCTS = [
     desc:
       "A balanced slide: cushioned footbed, solid grip, and a sleek strap profile.",
     image:
-      "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?auto=format&fit=crop&w=1200&q=70",
+      "https://images.unsplash.com/photo-1562183241-b937e95585b6?auto=format&fit=crop&w=1400&q=75",
   },
   {
     id: "dyno-airknit",
@@ -95,7 +95,7 @@ const PRODUCTS = [
     desc:
       "Airy knit with a flexible midsole—built for long days on your feet.",
     image:
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1200&q=70",
+      "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=1400&q=75",
   },
   {
     id: "dyno-easywear-tee",
@@ -109,7 +109,7 @@ const PRODUCTS = [
     desc:
       "A premium tee that holds shape with a soft feel. Clean neckline and easy fit.",
     image:
-      "https://images.unsplash.com/photo-1520975682035-3fc1e7c9f88f?auto=format&fit=crop&w=1200&q=70",
+      "https://images.unsplash.com/photo-1520975682035-3fc1e7c9f88f?auto=format&fit=crop&w=1400&q=75",
   },
   {
     id: "dyno-easywear-pants",
@@ -123,7 +123,7 @@ const PRODUCTS = [
     desc:
       "Relaxed fit with a clean taper. Made for all-day comfort and easy styling.",
     image:
-      "https://images.unsplash.com/photo-1520975813841-0cf2b3f39dbb?auto=format&fit=crop&w=1200&q=70",
+      "https://images.unsplash.com/photo-1520975813841-0cf2b3f39dbb?auto=format&fit=crop&w=1400&q=75",
   },
 ];
 
