@@ -1,0 +1,505 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0b0b10" />
+    <title>Dyno Collections — Shoes, Slides & Easy-Wear</title>
+    <meta
+      name="description"
+      content="Dyno Collections — premium shoes, slides, and easy-wear built for comfort, style, and everyday confidence."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" data-header>
+      <div class="container header-inner">
+        <a class="brand" href="./index.html" aria-label="Dyno Collections home">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M12 2.5c4.8 0 8.7 3.9 8.7 8.7S16.8 19.9 12 21.5C7.2 19.9 3.3 16 3.3 11.2S7.2 2.5 12 2.5Z"
+                stroke="currentColor"
+                stroke-width="1.6"
+              />
+              <path
+                d="M8 12.4c1.8-2.7 5.6-4.1 8-4.4-.4 2.6-1.8 6.5-4.5 8.3-1.7 1.2-3.7 1.1-4.8.7.7-1.1 1.1-2.7 1.3-4.6Z"
+                fill="currentColor"
+                opacity="0.9"
+              />
+            </svg>
+          </span>
+          <span class="brand-text">Dyno <span class="muted">Collections</span></span>
+        </a>
+
+        <nav class="nav" aria-label="Primary">
+          <a href="#new">New</a>
+          <a href="#collections">Collections</a>
+          <a href="#bestsellers">Best Sellers</a>
+          <a href="#about">About</a>
+          <a href="#faq">FAQ</a>
+        </nav>
+
+        <div class="header-actions">
+          <button class="icon-btn" type="button" data-search-open aria-label="Search">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M10.5 18a7.5 7.5 0 1 1 0-15 7.5 7.5 0 0 1 0 15Z"
+                stroke="currentColor"
+                stroke-width="1.6"
+              />
+              <path
+                d="M16.2 16.2 21 21"
+                stroke="currentColor"
+                stroke-width="1.6"
+                stroke-linecap="round"
+              />
+            </svg>
+          </button>
+
+          <button class="icon-btn" type="button" data-cart-open aria-label="Open cart">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M6.5 8.5h14l-1.4 11.2a2 2 0 0 1-2 1.8H9.9a2 2 0 0 1-2-1.8L6.5 8.5Z"
+                stroke="currentColor"
+                stroke-width="1.6"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M9 10V7.6A3.6 3.6 0 0 1 12.6 4h.8A3.6 3.6 0 0 1 17 7.6V10"
+                stroke="currentColor"
+                stroke-width="1.6"
+                stroke-linecap="round"
+              />
+            </svg>
+            <span class="cart-badge" data-cart-count>0</span>
+          </button>
+
+          <button class="hamburger" type="button" data-menu-toggle aria-label="Open menu">
+            <span></span><span></span>
+          </button>
+        </div>
+      </div>
+
+      <div class="mobile-nav" data-mobile-nav>
+        <div class="container mobile-nav-inner">
+          <a href="#new">New</a>
+          <a href="#collections">Collections</a>
+          <a href="#bestsellers">Best Sellers</a>
+          <a href="#about">About</a>
+          <a href="#faq">FAQ</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-label="Dyno Collections hero">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow">Comfort first. Style always.</p>
+            <h1>
+              Premium
+              <span class="accent">Shoes</span>,
+              <span class="accent">Slides</span>
+              & Easy-Wear—built for your everyday.
+            </h1>
+            <p class="lead">
+              Dyno Collections makes clean silhouettes, soft footbeds, and breathable materials that move with you—from morning
+              commutes to weekend chill.
+            </p>
+
+            <div class="hero-ctas">
+              <a class="btn btn-primary" href="#bestsellers">Shop Best Sellers</a>
+              <a class="btn btn-ghost" href="#collections">Explore Collections</a>
+            </div>
+
+            <div class="hero-stats" role="list">
+              <div class="stat" role="listitem">
+                <div class="stat-top">48h</div>
+                <div class="stat-bottom">Express dispatch</div>
+              </div>
+              <div class="stat" role="listitem">
+                <div class="stat-top">7 days</div>
+                <div class="stat-bottom">Returns & exchange</div>
+              </div>
+              <div class="stat" role="listitem">
+                <div class="stat-top">4.8/5</div>
+                <div class="stat-bottom">Customer rating</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-media" aria-hidden="true">
+            <div class="hero-card">
+              <div class="hero-card-top">
+                <span class="chip">New Drop</span>
+                <span class="chip chip-ghost">Cloudstep Series</span>
+              </div>
+              <div class="hero-card-img"></div>
+              <div class="hero-card-bottom">
+                <div>
+                  <div class="hero-card-title">Cloudstep Slides</div>
+                  <div class="hero-card-sub">Cushioned. Minimal. Everyday.</div>
+                </div>
+                <div class="hero-price">₦24,500</div>
+              </div>
+            </div>
+            <div class="hero-glow"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="new" aria-label="New arrivals">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <h2>New arrivals</h2>
+              <p class="sub">Fresh colorways and comfort upgrades for the season.</p>
+            </div>
+            <button class="btn btn-pill" type="button" data-scroll-to="bestsellers">Browse products</button>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature">
+              <div class="feature-icon" aria-hidden="true">01</div>
+              <h3>Soft-footbed slides</h3>
+              <p>Supportive arch feel, easy slip-on fit, and a clean silhouette that works with anything.</p>
+            </article>
+            <article class="feature">
+              <div class="feature-icon" aria-hidden="true">02</div>
+              <h3>Breathable easy-wear</h3>
+              <p>Lightweight uppers with airflow-friendly panels to keep you comfortable all day.</p>
+            </article>
+            <article class="feature">
+              <div class="feature-icon" aria-hidden="true">03</div>
+              <h3>Built to last</h3>
+              <p>Durable outsole compounds and quality stitching designed for real everyday use.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="collections" aria-label="Collections">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <h2>Collections</h2>
+              <p class="sub">Pick your vibe—slides, sneakers, or easy-wear essentials.</p>
+            </div>
+          </div>
+
+          <div class="collections">
+            <a class="collection" href="#bestsellers" data-filter="slides">
+              <div class="collection-media collection-media--slides"></div>
+              <div class="collection-body">
+                <div class="collection-title">Slides</div>
+                <div class="collection-sub">Cushioned comfort for everyday.</div>
+              </div>
+            </a>
+            <a class="collection" href="#bestsellers" data-filter="shoes">
+              <div class="collection-media collection-media--shoes"></div>
+              <div class="collection-body">
+                <div class="collection-title">Shoes</div>
+                <div class="collection-sub">Clean looks. Easy movement.</div>
+              </div>
+            </a>
+            <a class="collection" href="#bestsellers" data-filter="easywear">
+              <div class="collection-media collection-media--easy"></div>
+              <div class="collection-body">
+                <div class="collection-title">Easy-wear</div>
+                <div class="collection-sub">Lightweight essentials, elevated.</div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="bestsellers" aria-label="Products">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <h2>Shop products</h2>
+              <p class="sub">Curated picks from Dyno Collections. Add to cart in one tap.</p>
+            </div>
+
+            <div class="toolbar" role="group" aria-label="Product filters">
+              <button class="pill is-active" type="button" data-filter-btn data-filter="all">All</button>
+              <button class="pill" type="button" data-filter-btn data-filter="shoes">Shoes</button>
+              <button class="pill" type="button" data-filter-btn data-filter="slides">Slides</button>
+              <button class="pill" type="button" data-filter-btn data-filter="easywear">Easy-wear</button>
+            </div>
+          </div>
+
+          <div class="product-grid" data-product-grid aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section class="section" id="about" aria-label="About Dyno Collections">
+        <div class="container">
+          <div class="about">
+            <div class="about-copy">
+              <h2>Designed for movement, built for comfort.</h2>
+              <p class="sub">
+                Dyno Collections is a modern essentials brand focused on everyday footwear and easy-wear—clean design, durable
+                materials, and a fit you’ll want to live in.
+              </p>
+              <div class="about-points">
+                <div class="about-point">
+                  <div class="dot" aria-hidden="true"></div>
+                  <div>
+                    <div class="about-title">Premium feel, fair pricing</div>
+                    <div class="about-sub">Less hype. More quality you can actually use daily.</div>
+                  </div>
+                </div>
+                <div class="about-point">
+                  <div class="dot" aria-hidden="true"></div>
+                  <div>
+                    <div class="about-title">Quality control that matters</div>
+                    <div class="about-sub">We check stitching, grip, and comfort before each dispatch.</div>
+                  </div>
+                </div>
+                <div class="about-point">
+                  <div class="dot" aria-hidden="true"></div>
+                  <div>
+                    <div class="about-title">Style that stays clean</div>
+                    <div class="about-sub">Neutral palettes and subtle branding that works with any outfit.</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="about-cta">
+                <a class="btn btn-primary" href="#bestsellers">Shop now</a>
+                <a class="btn btn-ghost" href="#faq">How shipping works</a>
+              </div>
+            </div>
+
+            <div class="about-media" aria-hidden="true">
+              <div class="about-card">
+                <div class="about-card-top">
+                  <span class="chip">Trusted</span>
+                  <span class="chip chip-ghost">Comfort + durability</span>
+                </div>
+                <div class="about-card-mid">
+                  <div class="rating">
+                    <span class="stars" aria-hidden="true">★★★★★</span>
+                    <span class="muted">4.8 average</span>
+                  </div>
+                  <div class="about-quote">
+                    “The slides feel like a pillow. Clean look, solid grip, and they don’t wear out.”
+                  </div>
+                </div>
+                <div class="about-card-bottom">
+                  <div class="avatar" aria-hidden="true"></div>
+                  <div>
+                    <div class="about-person">Tomi A.</div>
+                    <div class="muted">Verified buyer</div>
+                  </div>
+                </div>
+              </div>
+              <div class="about-glow"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="faq" aria-label="FAQ">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <h2>FAQ</h2>
+              <p class="sub">Quick answers about delivery, sizing, and returns.</p>
+            </div>
+          </div>
+
+          <div class="faq">
+            <details>
+              <summary>How long does delivery take?</summary>
+              <div class="faq-body">
+                Dispatch is typically within 24–48 hours. Delivery time depends on your location, usually 1–5 business days.
+              </div>
+            </details>
+            <details>
+              <summary>Do you offer exchanges or returns?</summary>
+              <div class="faq-body">
+                Yes—7 days returns/exchange on unused items in original condition. If sizing is off, we’ll help you swap.
+              </div>
+            </details>
+            <details>
+              <summary>How do I choose my size?</summary>
+              <div class="faq-body">
+                Use the size guide on each product. If you’re between sizes, we recommend sizing up for slides.
+              </div>
+            </details>
+            <details>
+              <summary>What payment options are available?</summary>
+              <div class="faq-body">
+                This demo checkout is UI-only. If you want, I can integrate Paystack/Flutterwave and a simple order backend.
+              </div>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--newsletter" aria-label="Newsletter">
+        <div class="container">
+          <div class="newsletter">
+            <div>
+              <h2>Get drops, deals & restocks</h2>
+              <p class="sub">Join the Dyno list for early access to new collections.</p>
+            </div>
+            <form class="newsletter-form" data-newsletter-form>
+              <label class="sr-only" for="email">Email</label>
+              <input id="email" name="email" type="email" autocomplete="email" placeholder="Enter your email" required />
+              <button class="btn btn-primary" type="submit">Join</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div>
+          <div class="brand footer-brand">
+            <span class="brand-text">Dyno <span class="muted">Collections</span></span>
+          </div>
+          <p class="footer-sub">
+            Shoes, slides & easy-wear essentials—built for comfort and clean everyday style.
+          </p>
+        </div>
+
+        <div class="footer-links" aria-label="Footer links">
+          <a href="#bestsellers">Shop</a>
+          <a href="#collections">Collections</a>
+          <a href="#faq">FAQ</a>
+          <a href="./checkout.html">Checkout</a>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="muted">© <span data-year></span> Dyno Collections. All rights reserved.</div>
+          <div class="muted">Built as a front-end demo.</div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Product Quick View Modal -->
+    <dialog class="modal" data-product-modal>
+      <form method="dialog" class="modal-card">
+        <button class="icon-btn modal-close" value="cancel" aria-label="Close">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7 7l10 10M17 7 7 17" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
+          </svg>
+        </button>
+        <div class="modal-grid">
+          <div class="modal-media" data-modal-media></div>
+          <div class="modal-body">
+            <div class="modal-top">
+              <div>
+                <div class="modal-title" data-modal-title></div>
+                <div class="modal-sub" data-modal-sub></div>
+              </div>
+              <div class="modal-price" data-modal-price></div>
+            </div>
+
+            <div class="modal-meta">
+              <div class="meta">
+                <div class="meta-label">Category</div>
+                <div class="meta-value" data-modal-category></div>
+              </div>
+              <div class="meta">
+                <div class="meta-label">Stock</div>
+                <div class="meta-value" data-modal-stock></div>
+              </div>
+              <div class="meta">
+                <div class="meta-label">Rating</div>
+                <div class="meta-value" data-modal-rating></div>
+              </div>
+            </div>
+
+            <p class="modal-desc" data-modal-desc></p>
+
+            <div class="modal-actions">
+              <button class="btn btn-primary" type="button" data-modal-add>Add to cart</button>
+              <a class="btn btn-ghost" href="./checkout.html">Go to checkout</a>
+            </div>
+
+            <p class="muted" style="margin-top: 10px">Tip: you can keep shopping—your cart is saved on this device.</p>
+          </div>
+        </div>
+      </form>
+    </dialog>
+
+    <!-- Cart Drawer -->
+    <aside class="drawer" data-cart-drawer aria-label="Shopping cart">
+      <div class="drawer-backdrop" data-cart-close></div>
+      <div class="drawer-panel" role="dialog" aria-modal="true" aria-label="Cart">
+        <div class="drawer-head">
+          <div>
+            <div class="drawer-title">Your cart</div>
+            <div class="drawer-sub muted" data-cart-sub>0 items</div>
+          </div>
+          <button class="icon-btn" type="button" data-cart-close aria-label="Close cart">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7 7l10 10M17 7 7 17" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
+            </svg>
+          </button>
+        </div>
+
+        <div class="drawer-body" data-cart-items></div>
+
+        <div class="drawer-foot">
+          <div class="totals">
+            <div class="totals-row">
+              <span class="muted">Subtotal</span>
+              <span data-cart-subtotal>₦0</span>
+            </div>
+            <div class="totals-row">
+              <span class="muted">Delivery</span>
+              <span class="muted">Calculated at checkout</span>
+            </div>
+          </div>
+          <div class="drawer-actions">
+            <a class="btn btn-primary" href="./checkout.html">Checkout</a>
+            <button class="btn btn-ghost" type="button" data-cart-clear>Clear cart</button>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Search Drawer -->
+    <aside class="drawer" data-search-drawer aria-label="Search">
+      <div class="drawer-backdrop" data-search-close></div>
+      <div class="drawer-panel" role="dialog" aria-modal="true" aria-label="Search">
+        <div class="drawer-head">
+          <div>
+            <div class="drawer-title">Search products</div>
+            <div class="drawer-sub muted">Type a name or category.</div>
+          </div>
+          <button class="icon-btn" type="button" data-search-close aria-label="Close search">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7 7l10 10M17 7 7 17" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
+            </svg>
+          </button>
+        </div>
+
+        <div class="drawer-body">
+          <label class="sr-only" for="q">Search</label>
+          <input class="search-input" id="q" type="search" placeholder="Search: slides, sneakers, easy-wear..." data-search-input />
+          <div class="search-results" data-search-results></div>
+        </div>
+      </div>
+    </aside>
+
+    <script src="./app.js" defer></script>
+  </body>
+</html>
